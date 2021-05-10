@@ -83,7 +83,7 @@ public class MemberPay {
 	}
 
 	// edate의 setter
-	public void setEdate() {
+	public void setEdate(String edate) {
 		this.edate = edate;
 	}
 
@@ -93,7 +93,7 @@ public class MemberPay {
 	}
 
 	// regdate의 setter
-	public void setRegdate() {
+	public void setRegdate(String regdate) {
 		this.regdate = regdate;
 	}
 

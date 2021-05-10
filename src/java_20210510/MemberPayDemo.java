@@ -8,9 +8,8 @@ public class MemberPayDemo {
 		m.setGroup(1);
 		m.setName("자바 일주일만에 완성하기");
 		m.setPrice(500_500);
-		m.setSdate("1");
+		m.setStatus("1");
 		m.setValid(true);
-		m.setStatus(null);
 		m.setSdate("2021-05-10");
 		m.setEdate("2021-12-31");
 		m.setRegdate("2021-05-10");
@@ -20,7 +19,7 @@ public class MemberPayDemo {
 		System.out.println(m.getName());
 		System.out.println(m.getPrice());
 		System.out.println(m.getSdate());
-		System.out.println(m.getValid());
+		System.out.println(m.isValid());
 		System.out.println(m.getStatus());
 		System.out.println(m.getSdate());
 		System.out.println(m.getEdate());
